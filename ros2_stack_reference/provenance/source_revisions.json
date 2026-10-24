@@ -1,0 +1,32 @@
+[
+  {
+    "source": "/home/nshenoy/franka_ros2_ws/src/franka_ros2",
+    "copy": "sources/robot_ws/src/franka_ros2",
+    "head": "43d2535b135c9d49be42921fdf6b7a46d19fe38c",
+    "describe": "v2.0.2-dirty"
+  },
+  {
+    "source": "/home/nshenoy/franka_ros2_ws/src/franka_description",
+    "copy": "sources/robot_ws/src/franka_description",
+    "head": "566ba44abc48be2fca16050c406562e22f85793b",
+    "describe": "1.0.1"
+  },
+  {
+    "source": "/home/nshenoy/franka_ros2_ws/src/libfranka",
+    "copy": "sources/robot_ws/src/libfranka",
+    "head": "95b406f47c97cedfbe426c04d8fb7f83a9885e1c",
+    "describe": "0.20.4"
+  },
+  {
+    "source": "/home/nshenoy/roboinnovate_hackathon/franka_realsense_handeye_ros2",
+    "copy": "sources/franka_realsense_handeye_ros2",
+    "head": null,
+    "note": "No HEAD commit resolved; the copied working files are the reference."
+  },
+  {
+    "source": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter",
+    "copy": "sources/franka_lego_sorter",
+    "head": null,
+    "note": "No HEAD commit resolved; the copied working files are the reference."
+  }
+]

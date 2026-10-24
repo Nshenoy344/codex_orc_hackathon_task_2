@@ -1,0 +1,1064 @@
+{
+  "candidates": [
+    {
+      "center_px": [
+        563.7787475585938,
+        78.56558227539062
+      ],
+      "box_px": [
+        [
+          581.7787306308746,
+          33.56558108329773
+        ],
+        [
+          589.598432302475,
+          119.58196139335632
+        ],
+        [
+          545.7787644863129,
+          123.56558346748352
+        ],
+        [
+          537.9590628147125,
+          37.54920315742493
+        ]
+      ],
+      "point_camera_m": [
+        0.0918249841444187,
+        -0.061689357639405085,
+        0.22297569187331837
+      ],
+      "long_axis_camera": [
+        0.09030608561784693,
+        0.995914057989133,
+        0.0
+      ],
+      "length_m": 0.03163826409488139,
+      "width_m": 0.01607699910970249,
+      "depth_m": 0.22297569187331837,
+      "feature_lab": [
+        69.0,
+        166.0,
+        159.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified"
+      ],
+      "clearance_fraction": 0.19272495213784302,
+      "split_region": false,
+      "grasp_width_m": 0.01607699910970249,
+      "grasp_closing_axis_camera": [
+        -0.9958721846028187,
+        0.0907666895640099,
+        0.0
+      ],
+      "grasp_orientation": "across_width",
+      "clearance_options": {
+        "across_width": {
+          "free_fraction": 0.19272495213784302,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        },
+        "across_length": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        }
+      },
+      "surface_normal_camera": [
+        -0.05114738650651973,
+        0.0590576526336799,
+        -0.9969433978511281
+      ],
+      "surface_plane_rms_m": 0.0006114933554639488
+    },
+    {
+      "center_px": [
+        571.5697021484375,
+        163.26638793945312
+      ],
+      "box_px": [
+        [
+          589.8606867790222,
+          118.46720004081726
+        ],
+        [
+          597.639374256134,
+          204.03278994560242
+        ],
+        [
+          553.2787175178528,
+          208.065575838089
+        ],
+        [
+          545.500030040741,
+          122.49998593330383
+        ]
+      ],
+      "point_camera_m": [
+        0.09469218845942261,
+        -0.030672427598493913,
+        0.22302489398832712
+      ],
+      "long_axis_camera": [
+        0.09030570462542716,
+        0.9959140925361509,
+        0.0
+      ],
+      "length_m": 0.0314724547708033,
+      "width_m": 0.016275481375541752,
+      "depth_m": 0.22302489398832712,
+      "feature_lab": [
+        66.0,
+        149.0,
+        161.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified"
+      ],
+      "clearance_fraction": 0.12954690491384813,
+      "split_region": false,
+      "grasp_width_m": 0.016275481375541752,
+      "grasp_closing_axis_camera": [
+        -0.9958722193442578,
+        0.09076630838776276,
+        0.0
+      ],
+      "grasp_orientation": "across_width",
+      "clearance_options": {
+        "across_width": {
+          "free_fraction": 0.12954690491384813,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        },
+        "across_length": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        }
+      },
+      "surface_normal_camera": [
+        -0.005095885936306971,
+        0.021086029785808334,
+        -0.9997646779589665
+      ],
+      "surface_plane_rms_m": 0.0005261363949094233
+    },
+    {
+      "center_px": [
+        484.40260314941406,
+        173.77227783203125
+      ],
+      "box_px": [
+        [
+          504.9966411590576,
+          129.4096338748932
+        ],
+        [
+          511.28805351257324,
+          214.6297266483307
+        ],
+        [
+          463.8085651397705,
+          218.1349217891693
+        ],
+        [
+          457.5171527862549,
+          132.9148290157318
+        ]
+      ],
+      "point_camera_m": [
+        0.06337807384618241,
+        -0.02705326453858553,
+        0.22493490219570114
+      ],
+      "long_axis_camera": [
+        0.07343752333039676,
+        0.997299819596443,
+        0.0
+      ],
+      "length_m": 0.03158255597481629,
+      "width_m": 0.01755130916641979,
+      "depth_m": 0.22493490219570114,
+      "feature_lab": [
+        77.0,
+        166.0,
+        159.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified",
+        "same_color_region_split_boundary_unverified"
+      ],
+      "clearance_fraction": 0.17118863049095606,
+      "split_region": true,
+      "grasp_width_m": 0.01755130916641979,
+      "grasp_closing_axis_camera": [
+        -0.9972720892565418,
+        0.07381314239274862,
+        0.0
+      ],
+      "grasp_orientation": "across_width",
+      "clearance_options": {
+        "across_width": {
+          "free_fraction": 0.17118863049095606,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        },
+        "across_length": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        }
+      },
+      "surface_normal_camera": [
+        -0.09178895132550298,
+        0.04259544823144179,
+        -0.9948670344345155
+      ],
+      "surface_plane_rms_m": 0.0005426896352787399
+    },
+    {
+      "center_px": [
+        388.46717834472656,
+        98.63934326171875
+      ],
+      "box_px": [
+        [
+          405.999963760376,
+          53.9999942779541
+        ],
+        [
+          413.76226234436035,
+          139.3852481842041
+        ],
+        [
+          370.93439292907715,
+          143.2786922454834
+        ],
+        [
+          363.1720943450928,
+          57.8934383392334
+        ]
+      ],
+      "point_camera_m": [
+        0.028030011058661607,
+        -0.054830997653923096,
+        0.2250034158577143
+      ],
+      "long_axis_camera": [
+        0.09030576558904876,
+        0.9959140870081995,
+        0.0
+      ],
+      "length_m": 0.031828630440064794,
+      "width_m": 0.015924504694513335,
+      "depth_m": 0.2250034158577143,
+      "feature_lab": [
+        66.0,
+        150.0,
+        162.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified",
+        "same_color_region_split_boundary_unverified"
+      ],
+      "clearance_fraction": 0.04244372990353698,
+      "split_region": true,
+      "grasp_width_m": 0.015924504694513335,
+      "grasp_closing_axis_camera": [
+        -0.9958722139427721,
+        0.09076636765190835,
+        0.0
+      ],
+      "grasp_orientation": "across_width",
+      "clearance_options": {
+        "across_width": {
+          "free_fraction": 0.04244372990353698,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        },
+        "across_length": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        }
+      },
+      "surface_normal_camera": [
+        -0.055959098471932305,
+        0.026047722171415752,
+        -0.9980932298477377
+      ],
+      "surface_plane_rms_m": 0.00042818453394949927
+    },
+    {
+      "center_px": [
+        301.8431854248047,
+        41.82720184326172
+      ],
+      "box_px": [
+        [
+          322.3291492462158,
+          -4.1558518409729
+        ],
+        [
+          330.51887702941895,
+          83.20135641098022
+        ],
+        [
+          281.35722160339355,
+          87.81025552749634
+        ],
+        [
+          273.16749382019043,
+          0.4530472755432129
+        ]
+      ],
+      "point_camera_m": [
+        -0.003919545951106589,
+        -0.07611886795127946,
+        0.2258634140418424
+      ],
+      "long_axis_camera": [
+        0.09310357464547277,
+        0.9956564288891198,
+        0.0
+      ],
+      "length_m": 0.03257213227505928,
+      "width_m": 0.018284348671512622,
+      "depth_m": 0.2258634140418424,
+      "feature_lab": [
+        42.0,
+        136.0,
+        143.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "brick_clipped_by_image",
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified",
+        "same_color_region_split_boundary_unverified"
+      ],
+      "clearance_fraction": 0.0,
+      "split_region": true,
+      "grasp_width_m": 0.018284348671512622,
+      "grasp_closing_axis_camera": [
+        -0.9956119331364077,
+        0.09357819509044316,
+        0.0
+      ],
+      "grasp_orientation": "across_width",
+      "clearance_options": {
+        "across_width": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        },
+        "across_length": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "jaw_footprint_outside_image",
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        }
+      },
+      "surface_normal_camera": [
+        -0.007449480432826374,
+        0.05622524900099964,
+        -0.9983903177695869
+      ],
+      "surface_plane_rms_m": 0.0005917457365689028
+    },
+    {
+      "center_px": [
+        490.6940155029297,
+        258.99237060546875
+      ],
+      "box_px": [
+        [
+          511.28805351257324,
+          214.6297266483307
+        ],
+        [
+          517.5794658660889,
+          299.8498194217682
+        ],
+        [
+          470.09997749328613,
+          303.3550145626068
+        ],
+        [
+          463.8085651397705,
+          218.1349217891693
+        ]
+      ],
+      "point_camera_m": [
+        0.0660081918313249,
+        0.004455923533624548,
+        0.22600123674664307
+      ],
+      "long_axis_camera": [
+        0.07343752333039684,
+        0.9972998195964429,
+        0.0
+      ],
+      "length_m": 0.03158255597481629,
+      "width_m": 0.01755130916641979,
+      "depth_m": 0.22600123674664307,
+      "feature_lab": [
+        75.0,
+        168.0,
+        161.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified",
+        "same_color_region_split_boundary_unverified"
+      ],
+      "clearance_fraction": 0.025839793281653745,
+      "split_region": true,
+      "grasp_width_m": 0.01755130916641979,
+      "grasp_closing_axis_camera": [
+        -0.9972720892565419,
+        0.07381314239274714,
+        0.0
+      ],
+      "grasp_orientation": "across_width",
+      "clearance_options": {
+        "across_width": {
+          "free_fraction": 0.025839793281653745,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        },
+        "across_length": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        }
+      },
+      "surface_normal_camera": [
+        -0.016468509843038662,
+        -0.006763784119357227,
+        -0.9998415071439758
+      ],
+      "surface_plane_rms_m": 0.0006356124055854642
+    },
+    {
+      "center_px": [
+        310.0329132080078,
+        129.18441009521484
+      ],
+      "box_px": [
+        [
+          330.51887702941895,
+          83.20135641098022
+        ],
+        [
+          338.70860481262207,
+          170.55856466293335
+        ],
+        [
+          289.5469493865967,
+          175.16746377944946
+        ],
+        [
+          281.35722160339355,
+          87.81025552749634
+        ]
+      ],
+      "point_camera_m": [
+        -0.0008894049786161106,
+        -0.04373771817860539,
+        0.22601793320868196
+      ],
+      "long_axis_camera": [
+        0.0931035746454728,
+        0.9956564288891198,
+        0.0
+      ],
+      "length_m": 0.03257213227505928,
+      "width_m": 0.018284348671512622,
+      "depth_m": 0.22601793320868196,
+      "feature_lab": [
+        41.0,
+        137.0,
+        143.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified",
+        "same_color_region_split_boundary_unverified"
+      ],
+      "clearance_fraction": 0.01157556270096463,
+      "split_region": true,
+      "grasp_width_m": 0.03257213227505928,
+      "grasp_closing_axis_camera": [
+        0.09310357131079643,
+        0.9956564292009445,
+        0.0
+      ],
+      "grasp_orientation": "across_length",
+      "clearance_options": {
+        "across_width": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        },
+        "across_length": {
+          "free_fraction": 0.01157556270096463,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        }
+      },
+      "surface_normal_camera": [
+        -0.07448327574793732,
+        0.04877320988187639,
+        -0.9960288226912286
+      ],
+      "surface_plane_rms_m": 0.000494384030392926
+    },
+    {
+      "center_px": [
+        396.22947692871094,
+        184.02459716796875
+      ],
+      "box_px": [
+        [
+          413.76226234436035,
+          139.3852481842041
+        ],
+        [
+          421.5245609283447,
+          224.7705020904541
+        ],
+        [
+          378.6966915130615,
+          228.6639461517334
+        ],
+        [
+          370.93439292907715,
+          143.2786922454834
+        ]
+      ],
+      "point_camera_m": [
+        0.031031105241472817,
+        -0.02337726068768051,
+        0.2260191933148237
+      ],
+      "long_axis_camera": [
+        0.09030576558904879,
+        0.9959140870081997,
+        0.0
+      ],
+      "length_m": 0.031828630440064794,
+      "width_m": 0.015924504694513335,
+      "depth_m": 0.2260191933148237,
+      "feature_lab": [
+        65.0,
+        150.0,
+        162.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified",
+        "same_color_region_split_boundary_unverified"
+      ],
+      "clearance_fraction": 0.05198180636777128,
+      "split_region": true,
+      "grasp_width_m": 0.015924504694513335,
+      "grasp_closing_axis_camera": [
+        -0.9958722139427726,
+        0.09076636765190471,
+        0.0
+      ],
+      "grasp_orientation": "across_width",
+      "clearance_options": {
+        "across_width": {
+          "free_fraction": 0.05198180636777128,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        },
+        "across_length": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        }
+      },
+      "surface_normal_camera": [
+        -0.03165188978924812,
+        0.02700459826759688,
+        -0.9991340798637462
+      ],
+      "surface_plane_rms_m": 0.0004403470478726965
+    },
+    {
+      "center_px": [
+        482.7918395996094,
+        342.78839111328125
+      ],
+      "box_px": [
+        [
+          455.27716636657715,
+          379.7211709022522
+        ],
+        [
+          476.2343235015869,
+          297.20235681533813
+        ],
+        [
+          510.3065128326416,
+          305.8556113243103
+        ],
+        [
+          489.34935569763184,
+          388.37442541122437
+        ]
+      ],
+      "point_camera_m": [
+        0.06328005191350844,
+        0.035676301228166826,
+        0.22671053075321132
+      ],
+      "long_axis_camera": [
+        0.245561370841111,
+        -0.9693810464160285,
+        0.0
+      ],
+      "length_m": 0.03160206030402026,
+      "width_m": 0.013019178668587527,
+      "depth_m": 0.22671053075321132,
+      "feature_lab": [
+        46.0,
+        137.0,
+        143.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "nonrectangular_or_occluded_face",
+        "physical_shade_unverified"
+      ],
+      "clearance_fraction": 0.0026041666666666665,
+      "split_region": false,
+      "grasp_width_m": 0.03160206030402026,
+      "grasp_closing_axis_camera": [
+        0.24556137865185493,
+        -0.9693810444374288,
+        0.0
+      ],
+      "grasp_orientation": "across_length",
+      "clearance_options": {
+        "across_width": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        },
+        "across_length": {
+          "free_fraction": 0.0026041666666666665,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        }
+      },
+      "surface_normal_camera": [
+        -0.3812419331957913,
+        0.0521862990390482,
+        -0.9230011801540355
+      ],
+      "surface_plane_rms_m": 0.0010203621678032547
+    },
+    {
+      "center_px": [
+        404.4448547363281,
+        269.41143798828125
+      ],
+      "box_px": [
+        [
+          421.72219610214233,
+          224.36981117725372
+        ],
+        [
+          429.79287576675415,
+          310.45693123340607
+        ],
+        [
+          387.1675133705139,
+          314.4530647993088
+        ],
+        [
+          379.0968337059021,
+          228.36594474315643
+        ]
+      ],
+      "point_camera_m": [
+        0.03421468175623331,
+        0.008359106319227889,
+        0.22695606918886288
+      ],
+      "long_axis_camera": [
+        0.0931038319253239,
+        0.9956564048309141,
+        0.0
+      ],
+      "length_m": 0.03224059543458789,
+      "width_m": 0.01592349847034035,
+      "depth_m": 0.22695606918886288,
+      "feature_lab": [
+        70.0,
+        171.0,
+        164.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified"
+      ],
+      "clearance_fraction": 0.18140442132639792,
+      "split_region": false,
+      "grasp_width_m": 0.01592349847034035,
+      "grasp_closing_axis_camera": [
+        -0.9956119087791904,
+        0.0935784542352414,
+        0.0
+      ],
+      "grasp_orientation": "across_width",
+      "clearance_options": {
+        "across_width": {
+          "free_fraction": 0.18140442132639792,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        },
+        "across_length": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        }
+      },
+      "surface_normal_camera": [
+        -0.059302726291425904,
+        0.029014357696983045,
+        -0.9978182969367896
+      ],
+      "surface_plane_rms_m": 0.00037797616991394844
+    },
+    {
+      "center_px": [
+        311.4257507324219,
+        192.25743103027344
+      ],
+      "box_px": [
+        [
+          327.9009847640991,
+          148.00990343093872
+        ],
+        [
+          336.336651802063,
+          232.36633348464966
+        ],
+        [
+          294.95051670074463,
+          236.50495862960815
+        ],
+        [
+          286.51484966278076,
+          152.14852857589722
+        ]
+      ],
+      "point_camera_m": [
+        -0.00037523431344091163,
+        -0.02040891744175903,
+        0.22700119817363945
+      ],
+      "long_axis_camera": [
+        0.09925163550218656,
+        0.9950623663118514,
+        0.0
+      ],
+      "length_m": 0.031611293200730854,
+      "width_m": 0.015469886140518576,
+      "depth_m": 0.22700119817363945,
+      "feature_lab": [
+        84.0,
+        140.0,
+        158.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified"
+      ],
+      "clearance_fraction": 0.008655126498002663,
+      "split_region": false,
+      "grasp_width_m": 0.031611293200730854,
+      "grasp_closing_axis_camera": [
+        0.09925163956420979,
+        0.9950623659066884,
+        0.0
+      ],
+      "grasp_orientation": "across_length",
+      "clearance_options": {
+        "across_width": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        },
+        "across_length": {
+          "free_fraction": 0.008655126498002663,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        }
+      },
+      "surface_normal_camera": [
+        -0.012090751841413743,
+        0.03231991826820808,
+        -0.9994044409562355
+      ],
+      "surface_plane_rms_m": 0.00046990323311678133
+    },
+    {
+      "center_px": [
+        329.35491943359375,
+        361.2308654785156
+      ],
+      "box_px": [
+        [
+          344.38432455062866,
+          317.6132173538208
+        ],
+        [
+          353.83799600601196,
+          400.3327989578247
+        ],
+        [
+          314.32551431655884,
+          404.84851360321045
+        ],
+        [
+          304.87184286117554,
+          322.12893199920654
+        ]
+      ],
+      "point_camera_m": [
+        0.006348871886440344,
+        0.04297593746381706,
+        0.22900986554352043
+      ],
+      "long_axis_camera": [
+        0.11325953770763472,
+        0.9935654367570629,
+        0.0
+      ],
+      "length_m": 0.03131813282870889,
+      "width_m": 0.014922332305086595,
+      "depth_m": 0.22900986554352043,
+      "feature_lab": [
+        72.0,
+        149.0,
+        161.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified"
+      ],
+      "clearance_fraction": 0.0,
+      "split_region": false,
+      "grasp_width_m": 0.014922332305086595,
+      "grasp_closing_axis_camera": [
+        -0.9934997300286397,
+        0.11383446944146527,
+        0.0
+      ],
+      "grasp_orientation": "across_width",
+      "clearance_options": {
+        "across_width": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        },
+        "across_length": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        }
+      },
+      "surface_normal_camera": [
+        -0.014190500162069707,
+        0.013959198933255736,
+        -0.9998018656065271
+      ],
+      "surface_plane_rms_m": 0.0004042290391587008
+    },
+    {
+      "center_px": [
+        530.3975219726562,
+        97.87295532226562
+      ],
+      "box_px": [
+        [
+          539.2376561164856,
+          47.61474812030792
+        ],
+        [
+          548.1557478904724,
+          145.71311390399933
+        ],
+        [
+          521.5573878288269,
+          148.13116252422333
+        ],
+        [
+          512.6392960548401,
+          50.03279674053192
+        ]
+      ],
+      "point_camera_m": [
+        0.08225041410957858,
+        -0.0564151531714293,
+        0.2303143062917845
+      ],
+      "long_axis_camera": [
+        0.09030632133755048,
+        0.9959140366148471,
+        0.0
+      ],
+      "length_m": 0.03689124218141567,
+      "width_m": 0.009977477899118002,
+      "depth_m": 0.2303143062917845,
+      "feature_lab": [
+        40.0,
+        159.0,
+        151.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "nonrectangular_or_occluded_face",
+        "physical_shade_unverified"
+      ],
+      "clearance_fraction": 0.0,
+      "split_region": false,
+      "grasp_width_m": 0.009977477899118002,
+      "grasp_closing_axis_camera": [
+        -0.9958721634878152,
+        0.09076692123289379,
+        0.0
+      ],
+      "grasp_orientation": "across_width",
+      "clearance_options": {
+        "across_width": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        },
+        "across_length": {
+          "free_fraction": 0.0,
+          "reasons": [
+            "neighbor_or_unknown_depth_in_jaw_strip"
+          ]
+        }
+      },
+      "surface_normal_camera": [
+        -0.9019514223168981,
+        0.10987054162403842,
+        -0.41762674227564117
+      ],
+      "surface_plane_rms_m": 0.0006988788867372458
+    }
+  ],
+  "diagnostics": {
+    "table_depth_m": 0.3190000057220459,
+    "object_depth_range_m": [
+      0.20650002360343933,
+      0.3109999895095825
+    ],
+    "segmentation_clusters": 7,
+    "candidate_count": 13,
+    "graspable_count": 0,
+    "rejected_regions": 39,
+    "assumption": "Near-normal view; unknown shades and unverified split boundaries cannot execute",
+    "metadata": {
+      "serial": "943222073921",
+      "camera_name": "RealSense D435",
+      "width": 640,
+      "height": 480,
+      "fps": 30,
+      "enable_auto_exposure": 1.0,
+      "enable_auto_white_balance": 1.0,
+      "exposure": "auto",
+      "white_balance": "auto"
+    }
+  }
+}

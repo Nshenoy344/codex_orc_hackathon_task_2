@@ -1,0 +1,116 @@
+diff --git a/franka.repos b/franka.repos
+index b43a781..d674a26 100644
+--- a/franka.repos
++++ b/franka.repos
+@@ -6,4 +6,4 @@ repositories:
+   libfranka:
+     type: git
+     url: https://github.com/frankarobotics/libfranka.git
+-    version: 0.15.0
++    version: 0.20.4
+diff --git a/franka_example_controllers/CMakeLists.txt b/franka_example_controllers/CMakeLists.txt
+index 765f7b4..44ef28f 100644
+--- a/franka_example_controllers/CMakeLists.txt
++++ b/franka_example_controllers/CMakeLists.txt
+@@ -20,6 +20,12 @@ find_package(controller_interface REQUIRED)
+ find_package(franka_msgs REQUIRED)
+ find_package(franka_semantic_components REQUIRED)
+ find_package(hardware_interface REQUIRED)
++# Humble MoveIt exports may reference the upstream target name, while the
++# ROS tl_expected package exports the same headers as tl_expected::tl_expected.
++find_package(tl_expected REQUIRED)
++if(NOT TARGET tl::expected AND TARGET tl_expected::tl_expected)
++    add_library(tl::expected ALIAS tl_expected::tl_expected)
++endif()
+ find_package(moveit_core REQUIRED)
+ find_package(moveit_msgs REQUIRED)
+ find_package(pinocchio REQUIRED)
+diff --git a/franka_example_controllers/package.xml b/franka_example_controllers/package.xml
+index 7906139..3b17292 100644
+--- a/franka_example_controllers/package.xml
++++ b/franka_example_controllers/package.xml
+@@ -18,6 +18,7 @@
+   <depend>rclcpp_lifecycle</depend>
+   <depend>sensor_msgs</depend>
+   <depend>std_srvs</depend>
++  <depend>tl_expected</depend>
+ 
+ 
+   <test_depend>ament_cmake</test_depend>
+diff --git a/franka_hardware/src/robot.cpp b/franka_hardware/src/robot.cpp
+index ef0e09f..fd10edc 100644
+--- a/franka_hardware/src/robot.cpp
++++ b/franka_hardware/src/robot.cpp
+@@ -14,6 +14,10 @@
+ 
+ #include <cassert>
+ #include <mutex>
++#include <cstdio>
++#include <cstring>
++#include <pthread.h>
++#include <system_error>
+ 
+ #include <franka/control_tools.h>
+ #include <franka/rate_limiting.h>
+@@ -23,6 +27,48 @@
+ #include "franka_hardware/robot.hpp"
+ 
+ namespace franka_hardware {
++namespace {
++
++// libfranka promotes its constructor's calling thread to FIFO99. Restore only
++// that caller afterwards, before ROS/DDS descendants inherit the promotion.
++// The controller-manager update loop retains its own explicit FIFO policy.
++class ConstructorSchedulerRestore {
++ public:
++  ConstructorSchedulerRestore() : thread_(pthread_self()) {
++    const int error = pthread_getschedparam(thread_, &policy_, &parameters_);
++    if (error != 0) {
++      throw std::system_error(error, std::generic_category(),
++                              "Cannot save scheduler before libfranka construction");
++    }
++  }
++
++  ~ConstructorSchedulerRestore() noexcept {
++    if (active_) {
++      const int error = pthread_setschedparam(thread_, policy_, &parameters_);
++      if (error != 0) {
++        std::fprintf(stderr, "franka_hardware: scheduler rollback failed: %s\n",
++                     std::strerror(error));
++      }
++    }
++  }
++
++  void restore() {
++    const int error = pthread_setschedparam(thread_, policy_, &parameters_);
++    if (error != 0) {
++      throw std::system_error(error, std::generic_category(),
++                              "Cannot restore scheduler after libfranka construction");
++    }
++    active_ = false;
++  }
++
++ private:
++  pthread_t thread_;
++  int policy_{};
++  sched_param parameters_{};
++  bool active_{true};
++};
++
++}  // namespace
+ 
+ constexpr unsigned int kMaxNumberOfJoints = 7;
+ constexpr unsigned int kMaxNumberOfCartesianVelocities = 6;
+@@ -44,7 +90,11 @@ Robot::Robot(const std::string& robot_ip, const rclcpp::Logger& logger) {
+                 "https://frankaemika.github.io/docs/"
+                 "installation_linux.html#setting-up-the-real-time-kernel\n");
+   }
+-  robot_ = std::make_unique<franka::Robot>(robot_ip, rt_config);
++  {
++    ConstructorSchedulerRestore restore_scheduler;
++    robot_ = std::make_unique<franka::Robot>(robot_ip, rt_config);
++    restore_scheduler.restore();
++  }
+   model_ = std::make_unique<franka::Model>(robot_->loadModel());
+   franka_hardware_model_ = std::make_unique<Model>(model_.get());
+ }

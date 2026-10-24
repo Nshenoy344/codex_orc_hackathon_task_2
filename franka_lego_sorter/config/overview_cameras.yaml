@@ -1,0 +1,11 @@
+# Both auxiliary cameras are observation-only; no measured robot extrinsics.
+# Stable device paths prevent camera-number changes from swapping their roles.
+output_overview:
+  device: /dev/v4l/by-id/usb-046d_HD_Pro_Webcam_C920_03FB123F-video-index0
+  rotation_deg: 180
+  metric_extrinsics_verified: false
+  repositioned: true
+gripper_observer:
+  device: /dev/v4l/by-id/usb-Sonix_Technology_Co.__Ltd._HD_Pro_Webcam_C920_HD_Pro_Webcam_C920-video-index0
+  rotation_deg: 0
+  metric_extrinsics_verified: false

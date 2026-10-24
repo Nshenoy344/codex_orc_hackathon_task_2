@@ -1,0 +1,47 @@
+format: fr3_custom_fingertip_profile_v1
+profile_id: operator_stl_custom_unverified
+active_for_motion: false
+installation_confirmed_by_user: true
+physical_mounting_registration_verified: false
+physical_sdk_gap_calibration_verified: false
+cad_file: /home/nshenoy/Downloads/franka_research3_gripper.stl
+cad_sha256: 30c3e47142dce9ba82ec46edf42f1dc2825d620d23bad0a95ce1e2de902b752d
+cad_unit_scale_to_m: 0.001
+candidate_T_leftfinger_cad:
+- - 0.0
+  - -1.0
+  - 0.0
+  - -0.0155
+- - -1.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - -1.0
+  - 0.0636
+- - 0.0
+  - 0.0
+  - 0.0
+  - 1.0
+candidate_tcp_to_fingertip_m: 0.016549994564056397
+tcp_to_fingertip_m: null
+physical_inner_gap_minus_sdk_width_m: null
+maximum_usable_tip_insertion_m: null
+collision_model_parts:
+- role: new_custom_tip
+  mesh: /home/nshenoy/Downloads/franka_research3_gripper.stl
+  transform_status: candidate_only
+- role: stock_metal_carrier
+  mesh: /home/nshenoy/franka_ros2_ws/src/franka_description/meshes/robot_ee/franka_hand_white/visual/finger.dae
+  geometry_id: Part__Feature001_006-mesh
+  retained_on_hardware_verified: false
+old_rubber_pad_removed_verified: false
+geometry_report: data/commissioning/new_fingertip_candidate_geometry.json
+scene_status: All preceding object/obstacle/template targets stale after floor boards
+  were added; fresh observations required.
+notes:
+- Candidate toe16.55mm is CAD-derived, not a physical mounting registration.
+- Insertion clearance is a full-profile function; no old2mm screw limit or constant13.5mm
+  thickness is applied.
+- SDK width-to-physical-inner-gap must be checked after hardware replacement.

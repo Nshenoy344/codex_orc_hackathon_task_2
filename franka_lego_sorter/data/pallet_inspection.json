@@ -1,0 +1,553 @@
+{
+  "candidates": [
+    {
+      "center_px": [
+        564.0232543945312,
+        79.25169372558594
+      ],
+      "box_px": [
+        [
+          581.822868347168,
+          34.2471387386322
+        ],
+        [
+          589.760368347168,
+          120.23751044273376
+        ],
+        [
+          546.2236404418945,
+          124.25624871253967
+        ],
+        [
+          538.2861404418945,
+          38.26587700843811
+        ]
+      ],
+      "point_camera_m": [
+        0.09151212203134669,
+        -0.06116921858751596,
+        0.22200001776218414
+      ],
+      "long_axis_camera": [
+        0.09168262837736721,
+        0.9957882785280301,
+        0.0
+      ],
+      "length_m": 0.031490844539872304,
+      "width_m": 0.01590359252935866,
+      "depth_m": 0.22200001776218414,
+      "feature_lab": [
+        72.0,
+        167.0,
+        159.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified"
+      ],
+      "clearance_fraction": 0.22489217498459643,
+      "split_region": false
+    },
+    {
+      "center_px": [
+        571.58203125,
+        164.90162658691406
+      ],
+      "box_px": [
+        [
+          590.0656545162201,
+          119.72129583358765
+        ],
+        [
+          597.9098932743073,
+          206.0081992149353
+        ],
+        [
+          553.0984079837799,
+          210.08195734024048
+        ],
+        [
+          545.2541692256927,
+          123.79505395889282
+        ]
+      ],
+      "point_camera_m": [
+        0.0946861257662547,
+        -0.03006999403085465,
+        0.22300000488758087
+      ],
+      "long_axis_camera": [
+        0.09030544599489422,
+        0.9959141159877508,
+        0.0
+      ],
+      "length_m": 0.03173776555182854,
+      "width_m": 0.016440884989555777,
+      "depth_m": 0.22300000488758087,
+      "feature_lab": [
+        69.0,
+        149.0,
+        162.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified"
+      ],
+      "clearance_fraction": 0.003701418877236274,
+      "split_region": false
+    },
+    {
+      "center_px": [
+        302.750732421875,
+        41.69505310058594
+      ],
+      "box_px": [
+        [
+          324.88037490844727,
+          -4.4761292934417725
+        ],
+        [
+          333.387149810791,
+          82.71832871437073
+        ],
+        [
+          280.62108993530273,
+          87.86623549461365
+        ],
+        [
+          272.114315032959,
+          0.6717774868011475
+        ]
+      ],
+      "point_camera_m": [
+        -0.0035541266391808215,
+        -0.0755395008381785,
+        0.2240000069141388
+      ],
+      "long_axis_camera": [
+        0.09685356335691252,
+        0.9952986422501885,
+        0.0
+      ],
+      "length_m": 0.03237922868491816,
+      "width_m": 0.019545167543177845,
+      "depth_m": 0.2240000069141388,
+      "feature_lab": [
+        45.0,
+        136.0,
+        143.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "brick_clipped_by_image",
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified",
+        "same_color_region_split_boundary_unverified"
+      ],
+      "clearance_fraction": 0.0,
+      "split_region": true
+    },
+    {
+      "center_px": [
+        484.74848222732544,
+        173.70249557495117
+      ],
+      "box_px": [
+        [
+          505.93364238739014,
+          129.3242529630661
+        ],
+        [
+          511.7485065460205,
+          214.80283725261688
+        ],
+        [
+          463.56332206726074,
+          218.08073818683624
+        ],
+        [
+          457.74845790863037,
+          132.60215389728546
+        ]
+      ],
+      "point_camera_m": [
+        0.06324159849302191,
+        -0.02696650009124324,
+        0.2240000069141388
+      ],
+      "long_axis_camera": [
+        0.06769723507574381,
+        0.9977059107588265,
+        0.0
+      ],
+      "length_m": 0.0315247232122546,
+      "width_m": 0.017725720689171064,
+      "depth_m": 0.2240000069141388,
+      "feature_lab": [
+        81.0,
+        167.0,
+        159.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified",
+        "same_color_region_split_boundary_unverified"
+      ],
+      "clearance_fraction": 0.0,
+      "split_region": true
+    },
+    {
+      "center_px": [
+        311.25750732421875,
+        128.88951110839844
+      ],
+      "box_px": [
+        [
+          333.387149810791,
+          82.71832871437073
+        ],
+        [
+          341.89392471313477,
+          169.91278672218323
+        ],
+        [
+          289.1278648376465,
+          175.06069350242615
+        ],
+        [
+          280.62108993530273,
+          87.86623549461365
+        ]
+      ],
+      "point_camera_m": [
+        -0.00043394968474237195,
+        -0.04364972963332743,
+        0.22500000894069672
+      ],
+      "long_axis_camera": [
+        0.09685356335691249,
+        0.9952986422501885,
+        0.0
+      ],
+      "length_m": 0.03237922868491816,
+      "width_m": 0.019545167543177845,
+      "depth_m": 0.22500000894069672,
+      "feature_lab": [
+        43.0,
+        138.0,
+        144.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified",
+        "same_color_region_split_boundary_unverified"
+      ],
+      "clearance_fraction": 0.0,
+      "split_region": true
+    },
+    {
+      "center_px": [
+        490.5633463859558,
+        259.18107986450195
+      ],
+      "box_px": [
+        [
+          511.7485065460205,
+          214.80283725261688
+        ],
+        [
+          517.5633707046509,
+          300.28142154216766
+        ],
+        [
+          469.3781862258911,
+          303.559322476387
+        ],
+        [
+          463.56332206726074,
+          218.08073818683624
+        ]
+      ],
+      "point_camera_m": [
+        0.06566759168562507,
+        0.004505929748718759,
+        0.22500000894069672
+      ],
+      "long_axis_camera": [
+        0.06769723507574414,
+        0.9977059107588264,
+        0.0
+      ],
+      "length_m": 0.0315247232122546,
+      "width_m": 0.017725720689171064,
+      "depth_m": 0.22500000894069672,
+      "feature_lab": [
+        78.5,
+        168.0,
+        161.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified",
+        "same_color_region_split_boundary_unverified"
+      ],
+      "clearance_fraction": 0.0,
+      "split_region": true
+    },
+    {
+      "center_px": [
+        311.3812255859375,
+        192.3118896484375
+      ],
+      "box_px": [
+        [
+          327.80201148986816,
+          148.01980829238892
+        ],
+        [
+          336.24756813049316,
+          232.47525262832642
+        ],
+        [
+          294.96043968200684,
+          236.60397100448608
+        ],
+        [
+          286.51488304138184,
+          152.14852666854858
+        ]
+      ],
+      "point_camera_m": [
+        -0.00039006660317957226,
+        -0.020298686734304502,
+        0.22600001096725464
+      ],
+      "long_axis_camera": [
+        0.09925149756991354,
+        0.995062380069777,
+        0.0
+      ],
+      "length_m": 0.03150897613623051,
+      "width_m": 0.015364891587544048,
+      "depth_m": 0.22600001096725464,
+      "feature_lab": [
+        88.0,
+        140.0,
+        158.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified"
+      ],
+      "clearance_fraction": 0.0,
+      "split_region": false
+    },
+    {
+      "center_px": [
+        404.45428466796875,
+        270.0042419433594
+      ],
+      "box_px": [
+        [
+          421.66798734664917,
+          224.56914043426514
+        ],
+        [
+          429.694233417511,
+          311.52056407928467
+        ],
+        [
+          387.24058198928833,
+          315.4393434524536
+        ],
+        [
+          379.2143359184265,
+          228.48791980743408
+        ]
+      ],
+      "point_camera_m": [
+        0.034074043356143585,
+        0.008543967016744675,
+        0.22600001096725464
+      ],
+      "long_axis_camera": [
+        0.09168301799198501,
+        0.9957882426559782,
+        0.0
+      ],
+      "length_m": 0.03241653948753992,
+      "width_m": 0.015787376264861257,
+      "depth_m": 0.22600001096725464,
+      "feature_lab": [
+        72.0,
+        172.0,
+        165.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified"
+      ],
+      "clearance_fraction": 0.0,
+      "split_region": false
+    },
+    {
+      "center_px": [
+        493.0,
+        349.5
+      ],
+      "box_px": [
+        [
+          511.0,
+          304.0
+        ],
+        [
+          511.0,
+          395.0
+        ],
+        [
+          475.0,
+          395.0
+        ],
+        [
+          475.0,
+          304.0
+        ]
+      ],
+      "point_camera_m": [
+        0.06686171897063518,
+        0.038056120485867144,
+        0.22600001096725464
+      ],
+      "long_axis_camera": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "length_m": 0.03378300970193471,
+      "width_m": 0.013330473616883241,
+      "depth_m": 0.22600001096725464,
+      "feature_lab": [
+        50.0,
+        137.0,
+        143.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "nonrectangular_or_occluded_face",
+        "physical_shade_unverified"
+      ],
+      "clearance_fraction": 0.06613756613756613,
+      "split_region": false
+    },
+    {
+      "center_px": [
+        329.4180908203125,
+        361.8037109375
+      ],
+      "box_px": [
+        [
+          344.2354941368103,
+          317.50166058540344
+        ],
+        [
+          354.11263132095337,
+          401.4572956562042
+        ],
+        [
+          314.6006875038147,
+          406.10576128959656
+        ],
+        [
+          304.72355031967163,
+          322.1501262187958
+        ]
+      ],
+      "point_camera_m": [
+        0.006344474461189111,
+        0.04300097535674725,
+        0.22800001502037048
+      ],
+      "long_axis_camera": [
+        0.11654607308275898,
+        0.9931852862628343,
+        0.0
+      ],
+      "length_m": 0.03165941775836062,
+      "width_m": 0.014862710454704891,
+      "depth_m": 0.22800001502037048,
+      "feature_lab": [
+        76.0,
+        149.0,
+        162.0
+      ],
+      "color_id": null,
+      "color_distance": null,
+      "color_margin": null,
+      "graspable": false,
+      "rejection_reasons": [
+        "neighbor_or_unknown_depth_in_jaw_strip",
+        "physical_shade_unverified"
+      ],
+      "clearance_fraction": 0.0,
+      "split_region": false
+    }
+  ],
+  "diagnostics": {
+    "table_depth_m": 0.31800001859664917,
+    "object_depth_range_m": [
+      0.21700000762939453,
+      0.3100000023841858
+    ],
+    "segmentation_clusters": 7,
+    "candidate_count": 10,
+    "graspable_count": 0,
+    "rejected_regions": 44,
+    "assumption": "Near-normal view; unknown shades and unverified split boundaries cannot execute",
+    "metadata": {
+      "serial": "943222073921",
+      "camera_name": "RealSense D435",
+      "width": 640,
+      "height": 480,
+      "fps": 30,
+      "enable_auto_exposure": 1.0,
+      "enable_auto_white_balance": 1.0,
+      "exposure": "auto",
+      "white_balance": "auto"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+job:
+  good_colors:
+  - '300121'
+  - '6117418'
+  - '6487946'
+  bad_colors:
+  - '6135191'
+  - '4211201'
+  requested_colors:
+  - '300121'
+  requested_count: 13
+  source_count: null
+  sequence: null
+journal_file: runtime/reference_run.json
+poses_file: sources/franka_lego_sorter/data/poses.yaml
+templates_file: sources/franka_lego_sorter/data/templates.yaml
+handeye_file: sources/franka_lego_sorter/data/commissioning/charuco_rgbd_plane_candidate.yaml
+color_model_file: sources/franka_lego_sorter/data/colors.json
+camera:
+  depth_visual_preset: 3
+  serial: '943222073921'
+  width: 640
+  height: 480
+  fps: 30
+  burst_frames: 5
+  warmup_frames: 30
+  exposure: null
+  white_balance: null
+perception:
+  roi: null
+  min_depth_m: 0.15
+  max_depth_m: 1.0
+  top_band_m: 0.004
+  min_area_px: 80
+  min_component_px: 80
+  min_depth_fraction: 0.6
+  expected_length_m: 0.0318
+  expected_width_m: 0.0158
+  size_tolerance_m: 0.006
+colors:
+  max_distance: 18.0
+  min_margin: 5.0
+execution:
+  source_arrangement: pallet
+  transit_height_m: null
+  workspace_min_m: null
+  workspace_max_m: null
+  tcp_to_fingertip_m: 0.0095
+  finger_insertion_below_surface_m: 0.0015
+  maximum_usable_tip_insertion_m: 0.002
+  stack_pitch_m: null
+  reference_brick_yaw_deg: 0.0
+  max_pallet_layers: 5
+  template_grasp_orientation: across_width
+  gripper_opening_margin_m: 0.001
+  reference_closing_axis_yaw_deg: null
+  settle_sec: 0.6
+  consensus_frames: 3
+  max_observation_attempts: 3
+  detection_position_tolerance_m: 0.004
+  source_height_tolerance_m: 0.004
+  min_downward_optical_cosine: 0.95
+  verify_destination: true
+  destination_xy_tolerance_m: 0.006
+  destination_z_tolerance_m: 0.006
+motion:
+  base_frame: fr3_link0
+  tcp_frame: fr3_hand_tcp
+  planning_group: fr3_arm
+  velocity_scaling: 0.08
+  acceleration_scaling: 0.08
+  position_tolerance_m: 0.002
+  rotation_tolerance_rad: 0.025
+  open_width_m: 0.06
+  grasp_width_m: 0.0158
+  grasp_force_n: 15.0
+  gripper_speed_mps: 0.03
+  grasp_epsilon_inner_m: 0.002
+  grasp_epsilon_outer_m: 0.002
+  gripper_width_tolerance_m: 0.003
+  move_group_action: /move_action
+  gripper_move_action: /franka_gripper/move
+  gripper_grasp_action: /franka_gripper/grasp
+  joint_states_topic: /franka_gripper/joint_states
+pallet:
+  require_body_top_reference: true
+  finger_clearance_m: 0.0135
+  measured_interbrick_gap_m: 0.0145
+  grasp_width_source: configured_2x4_nominal
+  max_source_depth_increase_m: 0.016
+  finger_pad_length_m: 0.02
+  min_jaw_clearance_fraction: 0.9
+  clearance_depth_margin_m: 0.002
+  max_surface_plane_rms_m: 0.004
+  min_object_height_m: 0.008

@@ -1,0 +1,27 @@
+handeye_calibrator:
+  ros__parameters:
+    use_sim_time: false
+    base_frame: fr3_link0
+    tcp_frame: fr3_hand_tcp
+    color_frame: camera_color_optical_frame
+    depth_frame: camera_depth_optical_frame
+    image_topic: /camera/camera/color/image_raw
+    camera_info_topic: /camera/camera/color/camera_info
+    dictionary: DICT_5X5_1000
+    squares_x: 12
+    squares_y: 7
+    square_length_m: 0.040
+    marker_length_m: 0.030
+    legacy_pattern: false
+    min_charuco_corners: 20
+    max_reprojection_error_px: 0.9
+    min_samples: 12
+    method: PARK
+    max_image_age_sec: 1.0
+    tf_timeout_sec: 0.2
+    min_pose_translation_m: 0.015
+    min_pose_rotation_deg: 5.0
+    min_rotation_span_deg: 15.0
+    max_board_translation_rms_m: 0.01
+    max_board_rotation_rms_deg: 2.0
+    output_file: ~/franka_handeye_results/calibration.yaml

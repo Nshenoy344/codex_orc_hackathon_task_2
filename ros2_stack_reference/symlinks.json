@@ -1,0 +1,10 @@
+[
+  {
+    "path": "sources/robot_ws/src/franka_realsense_handeye_ros2",
+    "target": "../../franka_realsense_handeye_ros2"
+  },
+  {
+    "path": "sources/robot_ws/src/franka_ros2/franka_ros2/CHANGELOG.rst",
+    "target": "../CHANGELOG.rst"
+  }
+]

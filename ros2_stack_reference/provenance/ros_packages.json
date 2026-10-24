@@ -1,0 +1,92 @@
+[
+  {
+    "name": "franka_realsense_handeye",
+    "version": "0.1.0",
+    "source": "sources/franka_realsense_handeye_ros2",
+    "readme": "blocks/01_robot_control/packages/franka_realsense_handeye/README.md"
+  },
+  {
+    "name": "franka_description",
+    "version": "1.0.1",
+    "source": "sources/robot_ws/src/franka_description",
+    "readme": "blocks/01_robot_control/packages/franka_description/README.md"
+  },
+  {
+    "name": "franka_bringup",
+    "version": "2.0.2",
+    "source": "sources/robot_ws/src/franka_ros2/franka_bringup",
+    "readme": "blocks/01_robot_control/packages/franka_bringup/README.md"
+  },
+  {
+    "name": "franka_example_controllers",
+    "version": "2.0.2",
+    "source": "sources/robot_ws/src/franka_ros2/franka_example_controllers",
+    "readme": "blocks/01_robot_control/packages/franka_example_controllers/README.md"
+  },
+  {
+    "name": "franka_fr3_moveit_config",
+    "version": "2.0.2",
+    "source": "sources/robot_ws/src/franka_ros2/franka_fr3_moveit_config",
+    "readme": "blocks/01_robot_control/packages/franka_fr3_moveit_config/README.md"
+  },
+  {
+    "name": "franka_gazebo_bringup",
+    "version": "2.0.2",
+    "source": "sources/robot_ws/src/franka_ros2/franka_gazebo/franka_gazebo_bringup",
+    "readme": "blocks/01_robot_control/packages/franka_gazebo_bringup/README.md"
+  },
+  {
+    "name": "franka_ign_ros2_control",
+    "version": "2.0.2",
+    "source": "sources/robot_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control",
+    "readme": "blocks/01_robot_control/packages/franka_ign_ros2_control/README.md"
+  },
+  {
+    "name": "franka_gripper",
+    "version": "2.0.2",
+    "source": "sources/robot_ws/src/franka_ros2/franka_gripper",
+    "readme": "blocks/01_robot_control/packages/franka_gripper/README.md"
+  },
+  {
+    "name": "franka_hardware",
+    "version": "2.0.2",
+    "source": "sources/robot_ws/src/franka_ros2/franka_hardware",
+    "readme": "blocks/01_robot_control/packages/franka_hardware/README.md"
+  },
+  {
+    "name": "franka_msgs",
+    "version": "2.0.2",
+    "source": "sources/robot_ws/src/franka_ros2/franka_msgs",
+    "readme": "blocks/01_robot_control/packages/franka_msgs/README.md"
+  },
+  {
+    "name": "franka_robot_state_broadcaster",
+    "version": "2.0.2",
+    "source": "sources/robot_ws/src/franka_ros2/franka_robot_state_broadcaster",
+    "readme": "blocks/01_robot_control/packages/franka_robot_state_broadcaster/README.md"
+  },
+  {
+    "name": "franka_ros2",
+    "version": "2.0.2",
+    "source": "sources/robot_ws/src/franka_ros2/franka_ros2",
+    "readme": "blocks/01_robot_control/packages/franka_ros2/README.md"
+  },
+  {
+    "name": "franka_semantic_components",
+    "version": "2.0.2",
+    "source": "sources/robot_ws/src/franka_ros2/franka_semantic_components",
+    "readme": "blocks/01_robot_control/packages/franka_semantic_components/README.md"
+  },
+  {
+    "name": "integration_launch_testing",
+    "version": "2.0.2",
+    "source": "sources/robot_ws/src/franka_ros2/integration_launch_testing",
+    "readme": "blocks/01_robot_control/packages/integration_launch_testing/README.md"
+  },
+  {
+    "name": "libfranka",
+    "version": "0.20.4",
+    "source": "sources/robot_ws/src/libfranka",
+    "readme": "blocks/01_robot_control/packages/libfranka/README.md"
+  }
+]

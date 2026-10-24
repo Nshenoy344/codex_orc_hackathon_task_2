@@ -1,0 +1,61 @@
+{
+  "format": "lego_current_scene_state_v1",
+  "revision": 1,
+  "updated_utc": "2026-10-24T18:40:02.714618+00:00",
+  "status": "scene_changed_registrations_stale",
+  "change_source": "Operator added support floorboards; source/template positions and heights may also have changed",
+  "source_world_registration_valid": false,
+  "source_pixel_registration_valid": false,
+  "template_world_registration_valid": false,
+  "template_support_height_valid": false,
+  "placement_targets_valid": false,
+  "old_motion_plans_eligible": false,
+  "production_execution_eligible": false,
+  "invalidates": "ALL source/template pixel-to-world registrations, placement/recovery targets, support heights and derived motion plans acquired before this revision, regardless of historical passed tests/reviews.",
+  "preserve_as_reference_only": [
+    "Historical12 nonuniform observed template footprints and wholepattern90deg relationships",
+    "Historical source30 face associations and physical shade-teaching evidence"
+  ],
+  "must_remeasure": [
+    "Fresh paired RGBD and actualTCP after physically reviewed camera reposition if needed",
+    "Actual source and12 destination footprint positions in the changed scene",
+    "New board/table/support planes and every relevant support height",
+    "Changed obstacle geometry and fullarm/Hand/camera/heldobject path evidence"
+  ],
+  "unchanged_evidence_limits": "Camera handeye candidate is not automatically invalidated by support relocation, but remains physically unverified. Color identity teaching remains evidence; its old pixel/world associations do not transfer.",
+  "artifacts_deleted": false,
+  "automatic_revalidation": false,
+  "current_depth_limitation": "Arm was at old low approach when floorboards were added; close RGB can show new scene but cannot establish valid depth/support geometry. Fresh raised paired RGBD required.",
+  "historical_reference_files": [
+    {
+      "path": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/template_reference_uncovered_paired.npz",
+      "sha256": "21a73f1fb65925a504380337c9f9acc555e18ee186ae0ea0d6ba3ce3ce2de96a",
+      "execution_eligible": false,
+      "reference_only": true
+    },
+    {
+      "path": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/template_reference_uncovered_interior_registration.json",
+      "sha256": "f9b498fb19488a3ba1c7a5d3e453aa83e40f1842019120fce12572374e940072",
+      "execution_eligible": false,
+      "reference_only": true
+    },
+    {
+      "path": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/rotated_first_layer_pattern.json",
+      "sha256": "bd50474e5cc3d64f5f6ea394df1a3c0c496d16c60bf510f1492f4116f77de992",
+      "execution_eligible": false,
+      "reference_only": true
+    },
+    {
+      "path": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/first_loose_placement_target.json",
+      "sha256": "b5cd9b0c24196f74b43bbea4e72436d12438a927372b6ecb54aa761e7fa6cea3",
+      "execution_eligible": false,
+      "reference_only": true
+    },
+    {
+      "path": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/source_720_slots.json",
+      "sha256": "46637ec7ed6df085f34b83312736b3567a7be3a2379dda2157c4d2d27ec6c3fa",
+      "execution_eligible": false,
+      "reference_only": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "visible_top_base_m": [
+    -0.06996793546063064,
+    -0.35932040704892676,
+    -0.020213254361988287
+  ],
+  "table_point_base_m": [
+    -0.06996793546063064,
+    -0.35932040704892676,
+    -0.020213254361988287
+  ],
+  "measured_table_plane": {
+    "normal_base": [
+      -0.0004589319957709412,
+      0.01696169551005698,
+      0.99985603477492
+    ]
+  },
+  "source_snapshot": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/wrist_calibration_final/sample_1792869823846274546.npz",
+  "semantics": "Current identified ChArUco board plane; fixed board during autonomous acquisition"
+}

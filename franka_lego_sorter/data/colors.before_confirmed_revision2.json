@@ -1,0 +1,214 @@
+{
+  "format": "opencv_lab_v1",
+  "samples": {
+    "300121": [
+      [
+        67.0,
+        170.0,
+        160.0
+      ],
+      [
+        78.5,
+        171.0,
+        163.0
+      ],
+      [
+        66.0,
+        173.0,
+        164.0
+      ]
+    ],
+    "6117418": [
+      [
+        25.0,
+        147.0,
+        140.0
+      ],
+      [
+        27.0,
+        148.0,
+        141.0
+      ],
+      [
+        32.0,
+        150.0,
+        144.0
+      ]
+    ],
+    "6487946": [
+      [
+        56.0,
+        156.0,
+        160.0
+      ],
+      [
+        60.0,
+        154.0,
+        160.0
+      ],
+      [
+        70.0,
+        157.0,
+        163.0
+      ]
+    ],
+    "6135191": [
+      [
+        90.0,
+        141.0,
+        151.0
+      ],
+      [
+        80.0,
+        143.0,
+        155.0
+      ],
+      [
+        103.0,
+        144.0,
+        155.0
+      ]
+    ],
+    "4211201": [
+      [
+        51.0,
+        140.0,
+        144.0
+      ],
+      [
+        35.0,
+        143.0,
+        144.0
+      ],
+      [
+        48.0,
+        144.0,
+        145.0
+      ]
+    ]
+  },
+  "metadata": {
+    "camera": {
+      "serial": "943222073921",
+      "camera_name": "RealSense D435",
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "enable_auto_exposure": 1.0,
+      "enable_auto_white_balance": 1.0,
+      "exposure": "auto",
+      "white_balance": "auto"
+    },
+    "physical_color_identities_confirmed": true,
+    "confirmation_recorded_at_utc": "2026-10-24T14:11:22.222305+00:00",
+    "confirmation_source": "Operator confirmation relayed by orchestrator: all revision2 physical shade identities correct",
+    "teaching_proposal_revision": 2,
+    "teaching_proposal_sha256": "38a78a91b49c0b2c90bf38cfe6c1b9fc5db1418a8bf2e266a39010a0c96007a2",
+    "source_snapshot": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/source_720_view.npz",
+    "source_snapshot_sha256": "d79864a078dbc5887e4f96188d1a15a96e051788986c4d37148f8e49fc7229b2",
+    "physical_teaching_rois": {
+      "300121": [
+        [
+          1059,
+          95,
+          11,
+          11
+        ],
+        [
+          956,
+          220,
+          11,
+          11
+        ],
+        [
+          856,
+          345,
+          11,
+          11
+        ]
+      ],
+      "6117418": [
+        [
+          1059,
+          203,
+          11,
+          11
+        ],
+        [
+          1163,
+          313,
+          11,
+          11
+        ],
+        [
+          1059,
+          414,
+          11,
+          11
+        ]
+      ],
+      "6487946": [
+        [
+          856,
+          166,
+          11,
+          11
+        ],
+        [
+          1163,
+          213,
+          11,
+          11
+        ],
+        [
+          762,
+          280,
+          11,
+          11
+        ]
+      ],
+      "6135191": [
+        [
+          1162,
+          110,
+          11,
+          11
+        ],
+        [
+          957,
+          510,
+          11,
+          11
+        ],
+        [
+          669,
+          335,
+          11,
+          11
+        ]
+      ],
+      "4211201": [
+        [
+          956,
+          120,
+          11,
+          11
+        ],
+        [
+          857,
+          515,
+          11,
+          11
+        ],
+        [
+          750,
+          140,
+          11,
+          11
+        ]
+      ]
+    },
+    "confirmation_scope": "Physical shade identities and chosen examples; not classifier accuracy, grasp success, or camera-scale verification",
+    "independent_accuracy_evaluation": false
+  }
+}

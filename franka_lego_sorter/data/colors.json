@@ -1,0 +1,971 @@
+{
+  "format": "opencv_lab_v1",
+  "samples": {
+    "300121": [
+      [
+        71.0,
+        173.0,
+        164.0
+      ],
+      [
+        82.0,
+        176.0,
+        168.0
+      ],
+      [
+        78.0,
+        178.0,
+        169.0
+      ]
+    ],
+    "6117418": [
+      [
+        35.0,
+        151.0,
+        145.0
+      ],
+      [
+        29.0,
+        149.0,
+        143.0
+      ],
+      [
+        30.0,
+        149.0,
+        143.0
+      ],
+      [
+        24.0,
+        138.0,
+        136.0
+      ],
+      [
+        21.0,
+        141.0,
+        136.0
+      ],
+      [
+        39.0,
+        144.0,
+        143.0
+      ]
+    ],
+    "6487946": [
+      [
+        77.0,
+        158.0,
+        166.0
+      ],
+      [
+        62.0,
+        154.0,
+        161.0
+      ],
+      [
+        76.0,
+        160.0,
+        167.0
+      ]
+    ],
+    "6135191": [
+      [
+        91.0,
+        141.0,
+        151.0
+      ],
+      [
+        84.0,
+        143.0,
+        156.0
+      ],
+      [
+        101.0,
+        147.0,
+        156.0
+      ]
+    ],
+    "4211201": [
+      [
+        53.0,
+        142.0,
+        145.0
+      ],
+      [
+        35.0,
+        143.0,
+        144.0
+      ],
+      [
+        48.0,
+        144.0,
+        145.0
+      ]
+    ]
+  },
+  "metadata": {
+    "camera": {
+      "serial": "943222073921",
+      "camera_name": "RealSense D435",
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "enable_auto_exposure": 1.0,
+      "enable_auto_white_balance": 1.0,
+      "exposure": "auto",
+      "white_balance": "auto"
+    },
+    "physical_color_identities_confirmed": true,
+    "confirmation_recorded_at_utc": "2026-10-24T14:18:11.170619+00:00",
+    "confirmation_source": "Operator confirmation relayed by orchestrator: all revision2 physical shade identities correct",
+    "teaching_proposal_revision": 2,
+    "teaching_proposal_sha256": "38a78a91b49c0b2c90bf38cfe6c1b9fc5db1418a8bf2e266a39010a0c96007a2",
+    "source_snapshot": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/source_720_view.npz",
+    "source_snapshot_sha256": "d79864a078dbc5887e4f96188d1a15a96e051788986c4d37148f8e49fc7229b2",
+    "physical_teaching_rois": {
+      "300121": [
+        [
+          1059,
+          95,
+          11,
+          11
+        ],
+        [
+          956,
+          220,
+          11,
+          11
+        ],
+        [
+          856,
+          345,
+          11,
+          11
+        ]
+      ],
+      "6117418": [
+        [
+          1059,
+          203,
+          11,
+          11
+        ],
+        [
+          1163,
+          313,
+          11,
+          11
+        ],
+        [
+          1059,
+          414,
+          11,
+          11
+        ]
+      ],
+      "6487946": [
+        [
+          856,
+          166,
+          11,
+          11
+        ],
+        [
+          1163,
+          213,
+          11,
+          11
+        ],
+        [
+          762,
+          280,
+          11,
+          11
+        ]
+      ],
+      "6135191": [
+        [
+          1162,
+          110,
+          11,
+          11
+        ],
+        [
+          957,
+          510,
+          11,
+          11
+        ],
+        [
+          669,
+          335,
+          11,
+          11
+        ]
+      ],
+      "4211201": [
+        [
+          956,
+          120,
+          11,
+          11
+        ],
+        [
+          857,
+          515,
+          11,
+          11
+        ],
+        [
+          750,
+          140,
+          11,
+          11
+        ]
+      ]
+    },
+    "confirmation_scope": "Physical shade identities and anchor objects; not classifier accuracy, grasp success, or camera-scale verification",
+    "feature_representation": "confirmed_same_brick_whole_face_interior",
+    "face_regions": [
+      {
+        "code": "R1",
+        "confirmed_physical_color_id": "300121",
+        "confirmed_anchor_roi_px": [
+          1059,
+          95,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          1064,
+          100
+        ],
+        "face_polygon_px": [
+          [
+            1030,
+            62
+          ],
+          [
+            1094,
+            58
+          ],
+          [
+            1097,
+            164
+          ],
+          [
+            1036,
+            170
+          ]
+        ],
+        "robust_face_lab": [
+          71.0,
+          173.0,
+          164.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "R2",
+        "confirmed_physical_color_id": "300121",
+        "confirmed_anchor_roi_px": [
+          956,
+          220,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          961,
+          225
+        ],
+        "face_polygon_px": [
+          [
+            931,
+            175
+          ],
+          [
+            988,
+            171
+          ],
+          [
+            991,
+            274
+          ],
+          [
+            935,
+            279
+          ]
+        ],
+        "robust_face_lab": [
+          82.0,
+          176.0,
+          168.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "R3",
+        "confirmed_physical_color_id": "300121",
+        "confirmed_anchor_roi_px": [
+          856,
+          345,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          861,
+          350
+        ],
+        "face_polygon_px": [
+          [
+            834,
+            280
+          ],
+          [
+            889,
+            277
+          ],
+          [
+            893,
+            375
+          ],
+          [
+            838,
+            380
+          ]
+        ],
+        "robust_face_lab": [
+          78.0,
+          178.0,
+          169.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "M1",
+        "confirmed_physical_color_id": "6117418",
+        "confirmed_anchor_roi_px": [
+          1059,
+          203,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          1064,
+          208
+        ],
+        "face_polygon_px": [
+          [
+            1037,
+            167
+          ],
+          [
+            1098,
+            163
+          ],
+          [
+            1102,
+            263
+          ],
+          [
+            1041,
+            270
+          ]
+        ],
+        "robust_face_lab": [
+          35.0,
+          151.0,
+          145.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "M2",
+        "confirmed_physical_color_id": "6117418",
+        "confirmed_anchor_roi_px": [
+          1163,
+          313,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          1168,
+          318
+        ],
+        "face_polygon_px": [
+          [
+            1141,
+            265
+          ],
+          [
+            1197,
+            262
+          ],
+          [
+            1196,
+            362
+          ],
+          [
+            1142,
+            366
+          ]
+        ],
+        "robust_face_lab": [
+          29.0,
+          149.0,
+          143.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "M3",
+        "confirmed_physical_color_id": "6117418",
+        "confirmed_anchor_roi_px": [
+          1059,
+          414,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          1064,
+          419
+        ],
+        "face_polygon_px": [
+          [
+            1044,
+            366
+          ],
+          [
+            1107,
+            362
+          ],
+          [
+            1108,
+            466
+          ],
+          [
+            1046,
+            470
+          ]
+        ],
+        "robust_face_lab": [
+          30.0,
+          149.0,
+          143.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "O1",
+        "confirmed_physical_color_id": "6487946",
+        "confirmed_anchor_roi_px": [
+          856,
+          166,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          861,
+          171
+        ],
+        "face_polygon_px": [
+          [
+            831,
+            79
+          ],
+          [
+            883,
+            74
+          ],
+          [
+            887,
+            177
+          ],
+          [
+            835,
+            182
+          ]
+        ],
+        "robust_face_lab": [
+          77.0,
+          158.0,
+          166.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "O2",
+        "confirmed_physical_color_id": "6487946",
+        "confirmed_anchor_roi_px": [
+          1163,
+          213,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          1168,
+          218
+        ],
+        "face_polygon_px": [
+          [
+            1140,
+            162
+          ],
+          [
+            1199,
+            158
+          ],
+          [
+            1197,
+            264
+          ],
+          [
+            1140,
+            269
+          ]
+        ],
+        "robust_face_lab": [
+          62.0,
+          154.0,
+          161.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "O3",
+        "confirmed_physical_color_id": "6487946",
+        "confirmed_anchor_roi_px": [
+          762,
+          280,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          767,
+          285
+        ],
+        "face_polygon_px": [
+          [
+            735,
+            195
+          ],
+          [
+            790,
+            191
+          ],
+          [
+            792,
+            287
+          ],
+          [
+            739,
+            292
+          ]
+        ],
+        "robust_face_lab": [
+          76.0,
+          160.0,
+          167.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "T1",
+        "confirmed_physical_color_id": "6135191",
+        "confirmed_anchor_roi_px": [
+          1162,
+          110,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          1167,
+          115
+        ],
+        "face_polygon_px": [
+          [
+            1136,
+            56
+          ],
+          [
+            1199,
+            53
+          ],
+          [
+            1198,
+            161
+          ],
+          [
+            1141,
+            166
+          ]
+        ],
+        "robust_face_lab": [
+          91.0,
+          141.0,
+          151.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "T2",
+        "confirmed_physical_color_id": "6135191",
+        "confirmed_anchor_roi_px": [
+          957,
+          510,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          962,
+          515
+        ],
+        "face_polygon_px": [
+          [
+            940,
+            465
+          ],
+          [
+            995,
+            461
+          ],
+          [
+            995,
+            558
+          ],
+          [
+            944,
+            561
+          ]
+        ],
+        "robust_face_lab": [
+          84.0,
+          143.0,
+          156.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "T3",
+        "confirmed_physical_color_id": "6135191",
+        "confirmed_anchor_roi_px": [
+          669,
+          335,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          674,
+          340
+        ],
+        "face_polygon_px": [
+          [
+            649,
+            293
+          ],
+          [
+            698,
+            290
+          ],
+          [
+            701,
+            389
+          ],
+          [
+            653,
+            393
+          ]
+        ],
+        "robust_face_lab": [
+          101.0,
+          147.0,
+          156.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "B1",
+        "confirmed_physical_color_id": "4211201",
+        "confirmed_anchor_roi_px": [
+          956,
+          120,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          961,
+          125
+        ],
+        "face_polygon_px": [
+          [
+            926,
+            70
+          ],
+          [
+            984,
+            65
+          ],
+          [
+            988,
+            171
+          ],
+          [
+            931,
+            176
+          ]
+        ],
+        "robust_face_lab": [
+          53.0,
+          142.0,
+          145.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "B2",
+        "confirmed_physical_color_id": "4211201",
+        "confirmed_anchor_roi_px": [
+          857,
+          515,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          862,
+          520
+        ],
+        "face_polygon_px": [
+          [
+            840,
+            465
+          ],
+          [
+            894,
+            461
+          ],
+          [
+            895,
+            563
+          ],
+          [
+            845,
+            568
+          ]
+        ],
+        "robust_face_lab": [
+          35.0,
+          143.0,
+          144.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      },
+      {
+        "code": "B3",
+        "confirmed_physical_color_id": "4211201",
+        "confirmed_anchor_roi_px": [
+          750,
+          140,
+          11,
+          11
+        ],
+        "confirmed_anchor_center_px": [
+          755,
+          145
+        ],
+        "face_polygon_px": [
+          [
+            729,
+            94
+          ],
+          [
+            783,
+            90
+          ],
+          [
+            788,
+            191
+          ],
+          [
+            735,
+            196
+          ]
+        ],
+        "robust_face_lab": [
+          48.0,
+          144.0,
+          145.0
+        ],
+        "association": "Visible same-brick object continuity from the operator-confirmed patch; manually traced face, no color-nearest identity assignment",
+        "feature_representation": "eroded whole-face interior with the same single robustLab trim as production"
+      }
+    ],
+    "representation_change_reason": "Use the same whole-face feature representation in teaching and production; tinybodypatch shadow intensity is not representative of the entire face",
+    "independent_accuracy_evaluation": false,
+    "additional_operator_confirmed_examples": [
+      {
+        "confirmed_physical_color_id": "6117418",
+        "identity_source": "Operator explicitly confirmed current isolated brick as 6117418 (maroon), relayed by orchestrator in this chat",
+        "same_physical_object_across_views": true,
+        "snapshot": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/new_outputs_centered_view.npz",
+        "snapshot_sha256": "c91b7574dca5744477d306c5c536df3272c6c5448ab8a877c4103ad1d0a9886d",
+        "face_polygon_px": [
+          [
+            726.9124755859375,
+            559.1272583007812
+          ],
+          [
+            745.6153564453125,
+            531.9230346679688
+          ],
+          [
+            803.6312255859375,
+            571.8090209960938
+          ],
+          [
+            784.9283447265625,
+            599.0132446289062
+          ]
+        ],
+        "feature_representation": "whole-face interior eroded 7 pixels; existing production lab_feature",
+        "feature_lab": [
+          24.0,
+          138.0,
+          136.0
+        ],
+        "camera_signature": {
+          "serial": "943222073921",
+          "camera_name": "RealSense D435",
+          "enable_auto_exposure": 1.0,
+          "enable_auto_white_balance": 1.0,
+          "exposure": "auto",
+          "white_balance": "auto",
+          "width": 1280,
+          "height": 720,
+          "fps": 30,
+          "format": "bgr8"
+        },
+        "independent_accuracy_evaluation": false
+      },
+      {
+        "confirmed_physical_color_id": "6117418",
+        "identity_source": "Operator explicitly confirmed current isolated brick as 6117418 (maroon), relayed by orchestrator in this chat",
+        "same_physical_object_across_views": true,
+        "snapshot": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/isolated_close_observation.npz",
+        "snapshot_sha256": "45789af82837be2aa3c429ab12cb74df80ccd37bc614c14b9b6a650a3fcad8b3",
+        "face_polygon_px": [
+          [
+            711.8367919921875,
+            624.9788818359375
+          ],
+          [
+            714.0565185546875,
+            502.8919677734375
+          ],
+          [
+            772.5826416015625,
+            503.9560546875
+          ],
+          [
+            770.3629150390625,
+            626.04296875
+          ]
+        ],
+        "feature_representation": "whole-face interior eroded 7 pixels; existing production lab_feature",
+        "feature_lab": [
+          21.0,
+          141.0,
+          136.0
+        ],
+        "camera_signature": {
+          "serial": "943222073921",
+          "camera_name": "RealSense D435",
+          "enable_auto_exposure": 1.0,
+          "enable_auto_white_balance": 1.0,
+          "exposure": "auto",
+          "white_balance": "auto",
+          "width": 1280,
+          "height": 720,
+          "fps": 30,
+          "format": "bgr8"
+        },
+        "independent_accuracy_evaluation": false
+      },
+      {
+        "confirmed_physical_color_id": "6117418",
+        "identity_source": "Same uniquely tracked operator-confirmed isolated6117418: successful isolated source removal + retained bodywidth + single recorded diagnostic release; not inferred from shade",
+        "snapshot": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/first_placement_after_retract.npz",
+        "snapshot_sha256": "282730def6c391281c28321d3d905e32b54d56c50d632245ba06cfb1f1d5458c",
+        "face_polygon_px": [
+          [
+            698.0,
+            480.0
+          ],
+          [
+            740.0,
+            481.0
+          ],
+          [
+            740.0,
+            565.0
+          ],
+          [
+            696.0,
+            564.0
+          ]
+        ],
+        "feature_lab": [
+          39.0,
+          144.0,
+          143.0
+        ],
+        "feature_representation": "actual postrelease manually traced wholeface eroded7pixels; unchanged productionlab_feature",
+        "camera_signature": {
+          "serial": "943222073921",
+          "camera_name": "RealSense D435",
+          "enable_auto_exposure": 1.0,
+          "enable_auto_white_balance": 1.0,
+          "exposure": "auto",
+          "white_balance": "auto",
+          "width": 1280,
+          "height": 720,
+          "fps": 30,
+          "format": "bgr8"
+        },
+        "independent_accuracy_evaluation": false,
+        "task_placement_success": false,
+        "physical_wrong_orientation": true,
+        "evidence_files": [
+          {
+            "path": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/isolated_first_pick_source_proof.json",
+            "sha256": "e5922c86f9625661cf6ff3db8e397c1692e0382c2512b4f0c1b80651fe9126f1"
+          },
+          {
+            "path": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/isolated_first_grasp.json",
+            "sha256": "d7ae2987395db8ff6bb251e1906cdb48bd867cce0aba919aa5d4b36eef1a1b30"
+          },
+          {
+            "path": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/first_loose_release_01.json",
+            "sha256": "d06c8a55f9a93387fe4103fb956feb56eb35b0506badd9f019ac49fbabbbc85a"
+          },
+          {
+            "path": "/home/nshenoy/roboinnovate_hackathon/franka_lego_sorter/data/commissioning/first_placement_wrong_orientation_evidence.json",
+            "sha256": "98757b9b91e64a6fab324a395dfaf3f467d6b2407910f45e438e6caf4e2c7d80"
+          }
+        ]
+      }
+    ]
+  }
+}
