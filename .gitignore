@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+log/
+logs/
+ros2_stack_reference/sources/robot_ws/
+ros2_stack_reference/sources/pyrealsense2_runtime/
+ros2_stack_reference/sources/franka_lego_sorter/
+franka_lego_sorter/data/commissioning/
